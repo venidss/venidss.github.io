@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', 'sans-serif';
+    scroll-behavior: smooth;
+}
+body{
+ 
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(image/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.container {
+    
+    background-color: transparent;
+    padding-left: 8%;
+    padding-right: 8%;
+    width: 100;
+    
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
+.logo{
+    width: 250px;
+    cursor: pointer;
+}
+.menu{
+    width: 60px;
+   cursor: pointer;
+   margin-left: 40px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    
+    
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    text-shadow: 0 0 5px cyan, 0 0 25px cyan;    
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    margin-top: 25px;
+}
+.col{
+    flex-basis: 50%;
+    flex: 1;
+    
+    
+}
+
+h1{
+    color: white;
+    font-size: 150px;
+    text-shadow: 0 0 5px cyan, 0 0 25px cyan;        
+}
+.cvsu{
+    color: white;
+    font-size: 25px;
+    line-height: 15px;
+    text-shadow: 0 0 5px cyan, 0 0 25px cyan;
+}
+.projects{
+    width: 300px;
+    color: #000;
+    font-size: 25px;
+    padding: 25px 0;
+    background: cyan;
+    border: 0;
+    border-radius: 50px;
+    outline: none;
+    margin-top: 30px;
+    font-weight: bold;
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+    margin-left: 10px;
+}
+.person{
+    margin-left: auto;
+    width: 600px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    
+}
+
+.about-container{
+    position: relative;
+    width: 1200px;
+    height: 900px;
+    margin: 240px auto;
+    background:(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    border: solid;
+    border-color: cyan;
+    margin-top: 300px;
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+   
+}
+.about-container .box{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: calc(1200px - 30px);
+    height: calc(150px - 30px);
+    background: transparent;
+    float: left;
+    margin: 15px;
+    
+}
+.about {
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 0 0 5px cyan, 0 0 25px cyan;
+}
+.text-about{
+   font-size: 35px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 0 0 5px cyan, 0 0 25px
+}
+.un{
+    margin-top: 50px;
+}
+
+.contact{
+    position: relative;
+    width: 1200px;
+    height: 1000px;
+    margin: 240px auto;
+    background:(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    border: solid;
+    border-color: cyan;
+    margin-top: 500px;
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan;    
+}
+.contact .box-contact{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: calc(1200px - 30px);
+    height: calc(150px - 30px);
+    background: transparent;
+    float: left;
+    margin: 15px;
+}
+.aboutc{
+   font-size: 50px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 0 0 5px cyan, 0 0 25px cyan;
+}
+.text1{
+    position: relative;
+    top: 360px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+input{
+    background-color: white;
+    width: 120%;
+    font-size: 20px;
+    padding: 16px 16px;
+    border-radius: 10px;
+    border-color: black;
+    margin-bottom: 20px;
+    margin-left: 12%;
+    position: relative;
+    top: 10px;
+    align-items: center;
+    display: flex;
+    flex: auto;
+    box-shadow: 0 0 2px cyan, 0 0 10px cyan;
+}
+input:focus-within{
+    outline: none;
+    border-color: cyan;
+    border-width: 3px;
+}
+
+.ms{ 
+    background-color: white;
+    width: 120%;
+    font-size: 20px;
+    padding: 16px 16px;
+    border-radius: 10px;
+    border-color: black;
+    margin-bottom: 25px;
+    margin-left: 12%;
+    align-items: center;
+    display: flex;
+    flex: auto;
+    box-shadow: 0 0 2px cyan, 0 0 10px  cyan;
+    margin-top: 12px;
+    
+}
+.ms:focus-within{
+    outline: none;
+    border-color: cyan;
+    border-width: 3px;
+}
+.bcont{
+    background-color: cyan;
+    border-radius: 50px;
+    border-color: cyan;
+    font-size: 50px;
+    padding: 16px 16px;
+    text-align: center;
+    display: flex;
+    margin-left: auto;
+    font-weight: bold;
+    box-shadow: 0 0 5px cyan, 0 0 10px cyan;
+}
+.bcont:hover{
+    opacity: 80%;
+    cursor: pointer;
+}
+@media (max-width:1080px) {
+    .container{
+        width: 100;
+    }
+    .col{
+        margin-top: 50%;
+    }
+    .person{
+        display: none;
+    }
+    h1{
+        font-size: 130px;
+    }
+    .projects{
+        font-size: 50;
+    }
+    .menu{
+        width: 100px;
+        margin-left: 0;
+    }
+    nav ul li a{
+        display: none;
+    }
+    .about-container{
+        width: 800px;
+        height: 700;
+        position: relative;
+        margin-top: 90%;
+    }
+    .about-container .box{
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    .text-about{
+        font-size: 33px;
+        margin-top: 27px;
+    }
+    .about{
+        font-size: 50px;
+        top: 50%;
+        left: 33.5%;
+    }
+    .contact{
+        width: 800px;
+        height: 700;
+        position: relative;
+        margin-top: 90%;
+    }
+    .contact .box-contact{
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    input{
+        width: 80%;
+    }
+    .ms{
+        width: 80%;
+    }
+    .aboutc{
+        left: 33.5%;
+    }
+    .bcont{
+        margin-right: 20%;
+        margin-top: 10%;
+    }
+}
