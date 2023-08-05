@@ -119,7 +119,7 @@ h1{
     position: relative;
     display: flex;
     align-items: center;
-    width: calc(1200px - 30px);
+    width: calc(800px - 30px);
     height: calc(150px - 30px);
     background: transparent;
     float: left;
@@ -165,7 +165,7 @@ h1{
     position: relative;
     display: flex;
     align-items: center;
-    width: calc(1200px - 30px);
+    width: calc(800px - 30px);
     height: calc(150px - 30px);
     background: transparent;
     float: left;
