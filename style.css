@@ -72,7 +72,7 @@ nav ul li a{
 
 h1{
     color: white;
-    font-size: 150px;
+    font-size: 100px;
     text-shadow: 0 0 5px cyan, 0 0 25px cyan;        
 }
 .cvsu{
@@ -96,12 +96,11 @@ h1{
     margin-left: 10px;
 }
 .person{
-    margin-left: auto;
-    width: 600px;
+    margin-left: 3vh;
+    width: 500px;
     height: auto;
     display: flex;
     align-items: center;
-    
 }
 
 .about-container{
