@@ -17,8 +17,8 @@ body{
 .container {
     
     background-color: transparent;
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 4%;
+    padding-right: 4%;
     width: 100;
     
 }
@@ -249,9 +249,10 @@ input:focus-within{
     opacity: 80%;
     cursor: pointer;
 }
-@media (max-width:1080px) {
+@media (max-width:480px) {
     .container{
-        width: 100;
+        padding-left: 2;
+        padding-right: 2;
     }
     .col{
         margin-top: 50%;
@@ -260,14 +261,25 @@ input:focus-within{
         display: none;
     }
     h1{
-        font-size: 130px;
+        font-size: 45px;
+    }
+    .cvsu{
+        width: 200px;
+        font-size: 10px;
+        margin-top: 10px;
     }
     .projects{
-        font-size: 50;
+       width: 15vh;
+       font-size: 10px;
+       padding: 25px 0;
+       
     }
     .menu{
-        width: 100px;
+        width: 40px;
         margin-left: 0;
+    }
+    .logo{
+        width: 100px;
     }
     nav ul li a{
         display: none;
@@ -316,4 +328,5 @@ input:focus-within{
         margin-right: 20%;
         margin-top: 10%;
     }
-}
+    }
+    
