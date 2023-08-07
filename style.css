@@ -402,7 +402,7 @@ nav .fas{
 /*------------for small screen--------*/
 @media only screen and (max-width:600px){
     #header{
-        background-image: url('image/phone.png');
+        background-image: url('image/phone1.png');
     }
     .header-text{
         margin-top: 100%;
