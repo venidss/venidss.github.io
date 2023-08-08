@@ -21,4 +21,16 @@ function closemenu(){
     sidemenu.style.right = "-200px";
 }
 
+var loader = document.getElementById("preloader");
+        
+        window.addEventListener("load",
 
+function(load) {
+
+window.removeEventListener('load', load,
+
+false);
+
+setTimeout(function(){loader.style.display = 'none'},2000);
+
+},false);
