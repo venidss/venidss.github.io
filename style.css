@@ -6,11 +6,11 @@
 
 :root{
     --primary-color: #efe0bb;
-    --secondary-color: #1c1c1c;
+    --secondary-color: #100c08;
 }
 .dark-theme{
-    --primary-color: #1c1c1c;
-    --secondary-color: #FFFFF7;
+    --primary-color: #100c08;
+    --secondary-color: #efe0bb;
     
 }
 body{
