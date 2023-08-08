@@ -31,6 +31,6 @@ window.removeEventListener('load', load,
 
 false);
 
-setTimeout(function(){loader.style.display = 'none'},2000);
+setTimeout(function(){loader.style.display = 'none'},5000);
 
 },false);
