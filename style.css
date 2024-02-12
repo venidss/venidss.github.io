@@ -28,6 +28,7 @@ html{
 #icon{
     width: 30px;
     cursor: pointer;
+    transition: 0.6s;
 }
 #header{
     width: 100%;
@@ -52,6 +53,7 @@ nav ul{
 }
 .logo{
     width: 140px;
+    transition: 0.6s;
 }
 
 nav ul li{
@@ -65,6 +67,7 @@ nav ul li a{
     text-decoration: none;
     font-size: 18px;
     position: relative;
+    transition: 0.6s;
 }
 
 nav ul li a::after{
@@ -84,6 +87,7 @@ nav ul li a:hover::after{
 .header-text{
     margin-top: 20%;
     font-size: 30px;
+    transition: 0.6s;
 }
 
 .header-text h1{
@@ -99,6 +103,7 @@ nav ul li a:hover::after{
 #about{
     padding: 80px 0;
     color: var(--secondary-color);
+    transition: 0.6s;
 }
 
 .row{
@@ -179,6 +184,7 @@ ul li span{
 /*----------projects--------*/
 #project{
     padding: 20% 0;
+    transition: 0.6s;
 }
 
 .project-list{
@@ -230,6 +236,7 @@ ul li span{
 /*------Portfolio--------*/
 #portfolio{
     padding: 50px 0;
+    transition: 0.6s;
 }
 
 .work-list{
@@ -413,8 +420,10 @@ nav .fas{
 @media only screen and (max-width:600px){
     #header{
         background-image: url('image/phone1.png');
+        transition: 0.6s;
     }
     .header-text{
+        transition: 0.6s;
         margin-top: 100%;
         font-size: 16px;
     }
@@ -424,6 +433,7 @@ nav .fas{
     nav .fas{
         display: block;
         font-size: 25px;
+        transition: 0.6s;
     }
     nav ul {
         background: #C4A484;
@@ -444,6 +454,7 @@ nav .fas{
     nav ul li{
         display: block;
         margin: 25%;
+        transition: 0.6s;
     }
     nav ul .fas{
         position: absolute;
@@ -453,9 +464,11 @@ nav .fas{
     }
     .am{
         font-size: 40px;  
+        transition: 0.6s;
     }
     .about-col-1, .about-col-2{
         flex-basis: 100%;
+        transition: 0.6s;
     }
     .about-col-1{
         margin-bottom: 30px;
@@ -478,6 +491,7 @@ nav .fas{
     color: red;
     margin-top: -10px;
     display: block;
+    transition: 0.6s;
 }
 #preloader{
     background-size: 100%;
