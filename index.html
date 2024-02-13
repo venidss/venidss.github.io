@@ -6,7 +6,7 @@
     <title>bert</title>
     <link rel="icon" type="image" href="image/logo.png">
     <link rel="stylesheet" href="style.css">
-    
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://kit.fontawesome.com/213651151b.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -14,8 +14,8 @@
    <div id="header">
         <div class="container">
             <nav>
-                <img src="image/logo.png" class="logo">
-                <ul id="sidemenu">
+                <img src="image/logo.png" class="logo" data-aos="fade-left">
+                <ul id="sidemenu" data-aos="fade-right">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#project">Service</a></li>
@@ -26,7 +26,7 @@
                 <img src="image/moon.png" id="icon" >
                 <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
-            <div class="header-text">
+            <div class="header-text" data-aos="fade-in">
                 <p>IT STUDENT</p>
                 <h1><span>Gilbert</span> Venida<br>Student at CvSU</h1>
             </div>
@@ -177,7 +177,11 @@
        }
    }
     </script>
-    
+
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
     
 </body>
 </html>
